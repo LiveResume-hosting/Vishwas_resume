@@ -1,0 +1,314 @@
+body{
+    background-color:white;
+    text-align: center;
+}
+
+@media (min-width:750px){
+    #header{
+        text-align: left;
+        background-color: hsla(190, 95%, 65%, 0.6);
+        position: relative;
+        height: 300px;
+        padding: 30px 50px;
+        /* border-bottom-right-radius: 50px; */
+        /* border-bottom-left-radius:50px; */
+        /* font-family: 'Langar', cursive; */
+    }
+
+    .btn-shadow{
+        box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
+    }
+
+    .small-head{
+        display: inline;
+    }
+
+    .main-header{
+        width: 50%;
+    }
+    #short-btn{
+        width: auto;
+        position: absolute;
+        top: 30px;
+        right: 50px;
+        z-index: 1;
+        /* position:fixed; */
+    }
+
+    .but-head{
+        position: absolute;
+        bottom: 20px;
+    }
+
+    .main-head{
+        font-size: 48px;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        /* color: white; */
+    }
+    .exp-btn{
+        margin-right: 10px;
+    } 
+
+    /* about me content */
+    .about-me-content, .certificate-content{
+        width: 50%;
+        /* margin: 0 auto; */
+        padding: 30px;
+        border:2px solid #32c3dd;
+        border-radius: 10px;
+        box-shadow: 9px 6px 5px rgba(0,0,0,0.3);
+    }
+    .about-me-content{
+        margin-right: 20px;
+    }
+    ul{
+        text-align: left;
+    }
+    .center-content{
+        display: flex;
+        /* background-color: linear-gradient(30deg, #aaa4a4, #fff); */
+    }
+
+    #about-me{
+        margin-top: 50px;
+        margin-bottom:50px;
+    }
+    /* journey till now  */
+    .education, .experience, .project, .skills{
+        width: 50%;
+        border: 2px solid;
+        border-radius: 20px;
+        /* margin-bottom: 30px; */
+        margin: 0 auto;
+        padding: 20px;
+        text-align: left;
+    }
+    .seperator{
+        display: flex;
+    }
+    .education{
+        margin-right: 30px;
+        margin-bottom: 30px;
+        background-color: #13c2f247;
+    }
+    .experience{
+        margin-bottom: 30px;
+        background-color: #1ddbdb38;
+    }
+    .special{
+        margin-bottom: 0px;
+    }
+    .edu-head, .exp-head, .pro-head, .skill-head{
+        margin-bottom: 20px;
+    }
+    .project{
+        margin-right: 30px;
+        background-color: #1352be40;
+        margin-bottom: 30px;
+    }
+    .skills{
+        background-color: #13e88540;
+        margin-bottom: 30px;
+    }
+    /* footer */
+    .wrapper{
+        background-color: #32c3dd;
+        /* width: 50%; */
+        margin: 0 auto;
+        padding: 20px;
+    }
+    #gmail-content{
+        display: none;
+    }
+    .spec-add{
+        margin-top: 20px;
+    }
+    .contact-btn{
+        margin-right: 20px;
+    }
+
+}
+
+@media (max-width:749px){
+    body{
+        text-align: left;
+    }
+    /* header section  */
+
+    /* .main-header */
+    .main-head{
+        margin-bottom: 0;
+        font-size: 3rem;
+        font-family: 'Times New Roman', Times, serif;
+        font-weight: bold;
+        letter-spacing: -1px;
+    }
+    .small-head{
+        margin-bottom: 0px;
+        font-size: small;
+        display: inline-block;
+        margin-right: 10px;
+    }
+    #header{
+        margin-top: 10px;
+        margin-bottom: 20px;
+    }
+    .main-header{
+        background-color: hsl(190, 95%, 65%);
+        /* padding:30px 100px; */
+        padding-top: 2rem;
+        padding-bottom: 1rem;
+        color: hsl(190, 100%, 5%);
+        padding-left: 2px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px ;
+    }
+
+    .but-head{
+        margin-top: 2rem;
+    }
+
+    /* short-cut-btn */
+
+    .short-cut-btn{
+        margin-top: 20px;
+    }
+
+    .short-cut-btn a{
+        margin-right: 10px;
+    }
+    
+
+    /* about-me */
+    .center-content{
+        margin-bottom: 20px;
+        border-bottom-right-radius: 2%;
+        border-bottom-left-radius: 2%;
+        /* background: yellowgreen; */
+        border-bottom: 1px solid hsl(190, 89%, 75%);
+    }
+
+    /* journey-till-now */
+    #journey-till-now{
+        /* background-color: hsl(183, 1%, 99%); */
+        padding-top:20px;
+        padding-bottom: 20px;
+        /* border-radius: 50%; */
+    }
+    
+    /* education */
+    .education{
+        background-color: white;
+        border: 2px solid hsl(190, 96%, 65%);
+        border-radius: 2%;
+        padding: 10px 10px;
+        margin-bottom: 20px;
+        /* box-shadow: 3px 4px 5px rgba(0,0,0,0.2); */
+    }
+    .edu-head{
+        margin-bottom: 20px;
+    }
+
+    .education p{
+        margin-bottom: 0;
+        font-size: small;
+    }
+
+    .edu-duration{
+        word-spacing:8px;
+    }
+
+    /* experience */
+    .experience{
+        background-color: white;
+        border: 2px solid hsl(190, 95%, 65%);
+        border-radius: 2%;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+    }
+
+    .exp-head{
+        margin-bottom: 20px;
+    }
+
+    .experience p{
+        /* margin-bottom: 0; */
+        font-size: small;
+        color: hsl(180, 18%, 15%);
+    }
+
+    .exp-duration{
+        margin-bottom: 10px;
+    }
+
+    /* project */
+    .project{
+        background-color: white;
+        border: 2px solid hsl(190, 95%, 65%);
+        border-radius: 2%;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+    }
+
+    .pro-head{
+        margin-bottom: 20px;
+    }
+    .project p{
+        font-size: small;
+        color: hsl(180, 18%, 15%);
+    }
+    .project-imp{
+        margin-top:20px;
+    }
+
+     /* skills   */
+    .skills{
+        background-color: white;
+        border: 2px solid hsl(190, 95%, 65%);
+        border-radius: 2%;
+        padding: 5px 10px;
+        margin-bottom: 20px;
+    }
+
+    .skill-head{
+        margin-bottom:20px;
+    }
+    .skills p{
+        margin-bottom: 2px;
+        color: hsl(180, 18%, 15%);
+    }
+
+    /* contact  */
+
+    #contact{
+        background-color: hsl(190, 95%, 65%);
+        padding: 30px;
+        border-top-right-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+
+    .addres{
+        margin-top: 20px;
+        margin-bottom: 0;
+        font-size: small;
+    }
+    .con{
+        margin-top: 0;
+        margin-bottom: 20px;
+    }
+    .btn-container{
+        cursor: pointer;
+        display: inline;
+    }
+
+    #gmail-content{
+        display: none;
+    }
+    .contact-btn{
+        box-shadow: 3px 4px 5px rgba(0,0,0,0.2);
+        margin-right: 20px;
+    }
+
+    
+}
